@@ -1,0 +1,4 @@
+{"timestamp":"2025-07-27T15:50:00Z","level":"info","message":"Server started on port 5000"}
+{"timestamp":"2025-07-27T15:51:30Z","level":"warn","message":"Cache miss for user 123"}
+{"timestamp":"2025-07-27T15:52:10Z","level":"error","message":"Unhandled exception: DB timeout"}
+

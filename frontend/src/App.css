@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+nav.navbar {
+  background-color: yellowgreen ;
+  padding: 10px 20px;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-on-primary);
+}
+
+nav.navbar .nav-brand {
+  margin: 0;
+  font-size: 1.6em;
+}
+
+nav.navbar .brand-link {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+nav.navbar .brand-link:hover {
+  opacity: 0.8;
+}
+
+nav.navbar .brand-link h1 {
+  margin: 0;
+  font-size: 1.6em;
+}
+
+nav.navbar .nav-links {
+  display: flex;
+}
+
+nav.navbar .nav-link {
+  color: var(--text-on-primary);
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav.navbar .nav-link.active,
+nav.navbar .nav-link:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.main-content {
+  padding: 20px;
+}
+
+/* Ensure full height layout for sticky footer */
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content grows to fill the space between navbar and footer */
+.main-content {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: #f8fafc;
+}
+
+/* Slim and centered footer */
+.footer {
+  background-color: #0A1A2F;
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.4rem 0;
+  margin: 0;
+}
