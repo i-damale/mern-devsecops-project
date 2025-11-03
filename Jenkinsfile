@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    // ⚠️ PARAMETER: The parameter 'IMAGE_TAG_PARAM' MUST be defined in the Jenkins UI.
+    // Updated 3rd November 2025 ⚠️ PARAMETER: The parameter 'IMAGE_TAG_PARAM' MUST be defined in the Jenkins UI.
 
     environment {
         // --- SonarQube / Scanning Credentials ---
